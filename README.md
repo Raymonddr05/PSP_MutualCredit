@@ -1,4 +1,4 @@
-PSP is a peer-to-peer mutual credit network that replaces unbacked money with interest-free trade credit, anchored to a fixed commodity basket to prevent inflation.
+**PSP** is a peer-to-peer mutual credit network that replaces unbacked money with interest-free trade credit, anchored to a fixed commodity basket to prevent inflation.
 
 ## Licensing
 
