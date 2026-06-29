@@ -1,6 +1,6 @@
-**PSP** is a peer-to-peer mutual credit network that replaces unbacked money with interest-free trade credit, anchored to a fixed commodity basket to prevent inflation.
+**PSP** is a global mutual credit network that transcends the current money system with no purchasing power loss, no interest charges, and no central authority.
 
 ## Licensing
 
-* **Whitepaper**: Proven Success Protocol (PSP) Whitepaper © 2026 by Ray Dela Rama is licensed under Creative Commons Attribution 4.0 International. To view a copy of this license, see the `LICENSE-DOCUMENT.txt` file in this repository.
+* **Whitepaper**: Proven Success Protocol (PSP) Mutual Credit Whitepaper © 2026 by Ray Dela Rama is licensed under Creative Commons Attribution 4.0 International. To view a copy of this license, see the `LICENSE-DOCUMENT.txt` file in this repository.
 * **Codebase**: The software code is licensed under the MIT License (see `LICENSE-CODE.txt`).
