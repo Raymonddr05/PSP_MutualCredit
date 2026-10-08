@@ -10,122 +10,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PSP Mutual Credit</title>
+    <title>My Open Manifesto</title>
     <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            background-color: #fafafa;
-            color: #111111;
+        html, body {
             margin: 0;
-            display: flex;
-            justify-content: center;
-            min-height: 100vh;
+            height: 100%;
+            background-color: #fafafa;
         }
-        .container {
-            max-width: 600px;
+        iframe {
+            display: block;
+            border: 0;
             width: 100%;
-            padding: 48px 24px;
-            box-sizing: border-box;
-            display: flex;
-            flex-direction: column;
-            text-align: justify;
-        }
-        h1 {
-            font-size: 1.35rem;
-            font-weight: 700;
-            margin-top: 0;
-            margin-bottom: 0.9rem;
-            letter-spacing: -0.02em;
-            text-align: left;
-        }
-        p, li {
-            font-size: 0.98rem;
-            line-height: 1.5;
-            margin-top: 0;
-            margin-bottom: 0.7rem;
-        }
-        ul {
-            margin-top: 0;
-            margin-bottom: 0.7rem;
-            padding-left: 20px;
-        }
-        li {
-            margin-bottom: 0.3rem;
-        }
-        li::marker {
-            color: #111111;
-        }
-        a {
-            color: #111111;
-            text-decoration: underline;
-            text-underline-offset: 4px;
-        }
-        a:hover {
-            color: #444444;
-        }
-        .btn {
-            align-self: flex-start;
-            display: inline-block;
-            background-color: #111111;
-            color: #ffffff;
-            text-decoration: none;
-            padding: 12px 24px;
-            font-weight: 500;
-            border-radius: 6px;
-            margin-top: 1rem;
-            margin-bottom: 1.5rem;
-            transition: background-color 0.2s ease;
-        }
-        .btn:hover {
-            background-color: #333333;
-            color: #ffffff;
-        }
-        .footer {
-            margin-top: auto;
-            font-size: 0.95rem;
-            color: #666666;
-            text-align: left;
+            height: 100%;
         }
     </style>
+    <script>
+        // Phones and tablets often can't show embedded PDFs properly,
+        // so send them straight to the PDF and its built-in viewer.
+        (function () {
+            var ua = navigator.userAgent;
+            var isIPadOS = /Macintosh/.test(ua) && navigator.maxTouchPoints > 1;
+            if (/Android|iPhone|iPad|iPod/i.test(ua) || isIPadOS) {
+                location.replace("/My_Open_Manifesto.pdf");
+            }
+        })();
+    </script>
 </head>
 <body>
-    <div class="container">
-        <p style="background-color: #f0f0f0; border-left: 3px solid #111111; padding: 12px 16px; font-size: 0.9rem; margin-bottom: 1.5rem;">
-        <strong>Note:</strong> After further research, I found that there is already a project that has a mutual goal as mine. And so, I decided to discontinue this project and just join that project instead. Go to my <a href="https://www.linkedin.com/in/raydelarama/" target="_blank">LinkedIn</a> for updates.
+    <iframe src="/My Open Manifesto.pdf" title="My Open Manifesto"></iframe>
+    <noscript>
+        <p style="font-family: sans-serif; padding: 16px;">
+            <a href="/My Open Manifesto.pdf">Open My Open Manifesto (PDF)</a>
         </p>
-        
-        <h1>PSP Mutual Credit</h1>
-
-        <p>Building a global mutual credit network to transcend the current money system is the most important socio-techno-economic problem of our time.</p>
-
-        <p>The paper is available at:<br>
-        <a href="https://provensuccess.org/PSP_Whitepaper_DelaRama_2026.pdf" target="_blank">https://provensuccess.org/PSP_Whitepaper_DelaRama_2026.pdf</a></p>
-
-        <p><strong>The main properties:</strong></p>
-        <ul>
-            <li>Credit is created when goods or services are exchanged, and destroyed once spent back.</li>
-            <li>No bank or central authority is needed, and no interest is ever charged.</li>
-            <li>A unit of credit is anchored to a fixed basket of physical goods, protecting its value from both currency devaluation and crypto-style speculation.</li>
-            <li>Circulating credit always matches the goods and services available, preventing inflation.</li>
-        </ul>
-
-        <p><strong>Why are we building this?</strong></p>
-
-        <p>Because in the current money system, banks and governments print too much money, people lose trust in currencies, and prices swing wildly from guessing and betting, so no currency keeps its value for long.</p>
-
-        <p>We are building a mutual credit network where what you earn keeps its value against all of that. Your credit is anchored to real things people need everywhere, like grain, fuel, and metal, so it should hold its value close to those goods, years from now, no matter how rich or poor you are.</p>
-
-        <p>We're looking for builders, organizers, and funders dedicated to focusing on this global mutual credit network and nothing else.</p>
-
-        <p>If that’s you, we offer an opportunity to do your life’s work and help solve the most important socio-techno-economic challenge of our age.</p>
-        
-        <p>Now is the time. Join us.</p>
-
-        <a href="/PSP_Whitepaper_DelaRama_2026.pdf" class="btn" target="_blank">Read the Whitepaper</a>
-
-        <div class="footer">
-            &copy; 2026 PSP Mutual Credit Contributors. Code licensed under <a href="https://github.com/Raymonddr05/PSP_MutualCredit" target="_blank">GNU GPLv3</a>.
-        </div>
-    </div>
+    </noscript>
 </body>
 </html>
