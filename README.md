@@ -1,4 +1,4 @@
-**PSP** is a global mutual credit network that transcends the current money system with no purchasing power loss, no interest charges, and no central authority.
+**PSP** is a global mutual credit network that aims to build a world order where society advances through high-quality products and services — built strictly on moral good (like honesty, consent, fairness, kindness, and respect), never on moral evil (like deception, exploitation, coercion, theft, or violence).
 
 ## Licensing
 
