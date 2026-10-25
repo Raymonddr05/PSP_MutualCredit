@@ -10,38 +10,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Open Manifesto</title>
+    <title>An Open Network Where Moral Good Thrives</title>
     <style>
-        html, body {
-            margin: 0;
-            height: 100%;
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
             background-color: #fafafa;
+            color: #111111;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            min-height: 100vh;
         }
-        iframe {
-            display: block;
-            border: 0;
+        .container {
+            max-width: 600px;
             width: 100%;
-            height: 100%;
+            padding: 48px 24px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            text-align: justify;
+        }
+        h1 {
+            font-size: 1.35rem;
+            font-weight: 700;
+            margin-top: 0;
+            margin-bottom: 0.9rem;
+            letter-spacing: -0.02em;
+            text-align: left;
+        }
+        p {
+            font-size: 0.98rem;
+            line-height: 1.5;
+            margin-top: 0;
+            margin-bottom: 0.7rem;
+        }
+        a {
+            color: #111111;
+            text-decoration: underline;
+            text-underline-offset: 4px;
+        }
+        a:hover {
+            color: #444444;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #111111;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 12px 24px;
+            font-weight: 500;
+            border-radius: 6px;
+            margin-top: 1rem;
+            margin-right: 8px;
+            margin-bottom: 1.5rem;
+            transition: background-color 0.2s ease;
+        }
+        .btn:hover {
+            background-color: #333333;
+            color: #ffffff;
+        }
+        .buttons {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+        }
+        .footer {
+            margin-top: auto;
+            font-size: 0.95rem;
+            color: #666666;
+            text-align: left;
         }
     </style>
-    <script>
-        // Phones and tablets often can't show embedded PDFs properly,
-        // so send them straight to the PDF and its built-in viewer.
-        (function () {
-            var ua = navigator.userAgent;
-            var isIPadOS = /Macintosh/.test(ua) && navigator.maxTouchPoints > 1;
-            if (/Android|iPhone|iPad|iPod/i.test(ua) || isIPadOS) {
-                location.replace("/My_Open_Manifesto.pdf");
-            }
-        })();
-    </script>
 </head>
 <body>
-    <iframe src="/My Open Manifesto.pdf" title="My Open Manifesto"></iframe>
-    <noscript>
-        <p style="font-family: sans-serif; padding: 16px;">
-            <a href="/My Open Manifesto.pdf">Open My Open Manifesto (PDF)</a>
-        </p>
-    </noscript>
+    <div class="container">
+        <h1>An Open Network Where Moral Good Thrives</h1>
+
+        <p>Our vision is a world where everyone is safe, free, and treated fairly, and able to grow, belong, and contribute.</p>
+
+        <p>We build it step by step, starting with a problem businesses feel today: small businesses run short of cash because other businesses pay them late and banks rarely fill the gap.</p>
+
+        <p>Our first tool is debt clearing. If A owes B, B owes C, and C owes A, the three debts cancel and no money moves. In Slovenia, clearing cancelled debts between businesses equal to 7.58% of GDP in 1992. In Italy, real invoices show it would cancel about 25% of what firms owe each other.</p>
+
+        <p>Members also get a free debt map, fair dispute settlement by peers they choose, and a record of kept payment commitments that they own and take along if they leave. Honest dealing builds standing that members can see.</p>
+
+        <p>It is open source and owned by everyone in it. Anyone who accepts the same frameworks can join, and anyone can leave at any time. Its only income is a small share of the value it clears: no cancelled debt, no fee.</p>
+
+        <p>We start in the Philippines and prove each step before the next: a lawful path, businesses willing to share invoices, and real debt cancelled on real invoices. We report the results either way, and businesses join by choice, never by force.</p>
+
+        <p>We do not yet know whether this alone reaches the vision, and we will add other mechanisms if the evidence says we need them.</p>
+
+        <p>We are looking for payments lawyers, software engineers, finance and supply-chain leaders, trade associations, businesses willing to share anonymized invoices, and funders. If that is you, we offer an opportunity to do your life's work.</p>
+
+        <p>Now is the time. Join us.</p>
+
+        <div class="buttons">
+            <a href="My Open Manifesto.pdf" class="btn" target="_blank" rel="noopener">Read My Open Manifesto</a>
+            <a href="Grant Proposal 1.pdf" class="btn" target="_blank" rel="noopener">Read the Grant Proposal 1</a>
+            <a href="mailto:ray@provensuccess.org" class="btn">Contact</a>
+        </div>
+
+        <div class="footer">
+            &copy; 2026 Ray Dela Rama. Code licensed under <a href="https://github.com/Raymonddr05/PSP_MutualCredit" target="_blank" rel="noopener">GNU GPLv3</a>.
+        </div>
+    </div>
 </body>
 </html>
