@@ -11,7 +11,7 @@ Early stage. We are testing whether the network is worth building, starting in t
 We start with debt clearing between businesses, because late payment and scarce bank credit are problems businesses feel today.
 
 - **Debt clearing.** Circles of debt between businesses cancel with no money moving. If A owes B, B owes C, and C owes A, the three debts cancel.
-- **A free debt map.** Each member sees who owes them, whom they owe, and which debts sit in circles. Before joining, a business gets a free, private audit of its past invoices.
+- **A debt map.** Each member sees who owes them, whom they owe, and which debts sit in circles. Before joining, a business gets a free, private audit of its past invoices.
 - **Fair dispute settlement.** Peers chosen by member vote settle disagreements about invoices. Each fact is labeled by how well it is known, and findings stay open to appeal.
 - **A portable record.** A record of kept payment commitments that the member owns and takes along when leaving.
 
